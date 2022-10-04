@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta name="viewport" content="width=device-width, initial scale=1.0">
+       <title>Blog |Hogwarts University</title> 
+       <link rel="stylesheet" href="university.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+    <body>
+
+        <section class="sub-header">
+            <nav>
+                <a href="iiiiindex.html"><img src="iimages/hogwarts-logo.png"></a>
+                <div class="nav-link" id="navlinks">
+                    <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="iiiiindex.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="ourcourses.html">Courses</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+            </nav>
+
+            <h1>Our Certification and Online Programs</h1>
+
+        </section>
+
+        <section class="blogcontent">
+            <div class="row">
+                <div class="blog-left">
+                 <img src="iimages/certificate.jpg"> 
+                 <h2>Our Certification and Online Programs</h2>  
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae doloribus molestiae, cumque quam, cum culpa asperiores ducimus consequuntur laudantium ipsam a hic corporis, voluptatibus nihil quo debitis aliquid obcaecati qui? Autem tenetur inventore excepturi ipsam</p><br>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi fuga a maiores laboriosam, magnam magni cum neque blanditiis atque. Alias distinctio itaque commodi dolor? Incidunt quia quidem esse eaque doloribus. Tempora deleniti deserunt maxime nostrum! Itaque vitae aliquid consequuntur exercitationem sequi officiis ipsa recusandae eaque</p><br>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugiat quaerat corporis ut, repellendus dolorem aliquam veritatis consequatur unde quo officia magnam illum rem accusantium. Laudantium deserunt nemo fugit soluta dolorem obcaecati dolorum atque qui dolor voluptatem ipsa molestiae iste aliquid voluptates ipsum, sapiente impedit labore nobis possimus autem quod velit! Eum ut ea debitis.</p><br>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci incidunt sapiente atque et, quisquam ipsum fuga temporibus vitae corporis corrupti molestiae dolor quia porro nostrum accusamus consequatur ipsa animi. Omnis repellendus consequatur necessitatibus architecto sunt nostrum, ratione ea eaque repudiandae, ipsa soluta dolores illum inventore incidunt tempore. Quo rem provident possimus illum exercitationem corporis adipisci minus, laboriosam sed error. Neque maiores nisi ex repellat amet.</p>
+
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <input type="number" placeholder="Phone Number">
+                            <textarea rows="5" placeholder="Write Comment"></textarea>
+                            <button type="submit" class="f-btn r-btn">Post Comment</button>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Commerce</span>
+                        <span>41</span>
+                    </div>
+                    <div>
+                        <span>Law</span>
+                        <span>51</span>
+                    </div>
+                    <div>
+                        <span>Machine Learning</span>
+                        <span>30</span>
+                    </div>
+                    <div>
+                        <span>Journalism</span>
+                        <span>29</span>
+                    </div>
+                    <div>
+                        <span>Foreign Languages</span>
+                        <span>40</span>
+                    </div>
+                    <div>
+                        <span>Mechanics</span>
+                        <span>35</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+       
+
+
+
+
+        <!------footer-->
+
+        <section class="footer">
+            <h4>About us</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque dicta corrupti reiciendis illo <br>
+                voluptas facere rem rerum vitae eveniet aut. Consectetur blanditiis nesciunt quod aperiam!</p>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i> 
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+        </section>
+
+
+
+
+
+
+        <script>
+            var navlinks= document.getElementById("navlinks");
+            function showmenu(){
+                navlinks.style.right = "0";
+                
+            }
+            function hidemenu(){
+                navlinks.style.right = "-200px";
+
+            }
+        </script>
+
+        
+    </body>
+</html>
